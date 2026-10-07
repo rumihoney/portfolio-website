@@ -1,0 +1,15 @@
+to do:
+-animate technology list
+-change python icon to official colors not just yellow
+-add -> what I do? section
+-add -> contact section
+
+
+javascript things to add:
+TOP OF PAGE
+→ navbar blends into background
+
+SCROLLED
+→ navbar becomes dark gray
+
+Navbar -> active = blue circle next to link
