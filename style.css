@@ -256,12 +256,11 @@ header {
   gap: 60px;
 }
 
-.contact-text,
 .contact-form {
   flex: 1;
 }
 
-.contact-text p {
+.contact-text {
   font-size: 18px;
   color: darkgray;
 }

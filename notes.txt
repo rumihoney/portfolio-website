@@ -14,10 +14,18 @@ What I did so far (not in order):
 -stylized website with dark minimalist aesthetic inspired by https://themewagon.com/themes/dark-minimal/
 -added a header section with intro and main paragraph
 -projects section (empty for now)
--contact section
+-contact section w Submit button
 -clicking on nav bar sections leads to them
 -when scrolling down, the nav bar becomes transparent, background blurred element
 -added tech list with respective icons for most of them and animated it
 -open git, linkedin, and envelope to new tab and outlook for email directly (with target="_black"
+
+ideas/brainstorm:
+
+-night/day modes for page
+-Fr/En language translation
+
+
+sources:
 
 sites like Pixabay and Unsplash, offer free-to-use image
