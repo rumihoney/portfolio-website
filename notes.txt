@@ -1,15 +1,23 @@
-to do:
--animate technology list
+to do :
+
 -change python icon to official colors not just yellow
 -add -> what I do? section
--add -> contact section
+-add copyright for devicon icons 
+-projects section -> change header to match contact header
+-when hovering on projects make the box change color to blue (same color as contact blue section)
+-when clicking on link in navbar, put blue circle next to it to indicate its 'activated'
 
 
-javascript things to add:
-TOP OF PAGE
-→ navbar blends into background
+What I did so far (not in order):
 
-SCROLLED
-→ navbar becomes dark gray
+-nav bar with name and 3 sections: Home, Projects, Contact
+-stylized website with dark minimalist aesthetic inspired by https://themewagon.com/themes/dark-minimal/
+-added a header section with intro and main paragraph
+-projects section (empty for now)
+-contact section
+-clicking on nav bar sections leads to them
+-when scrolling down, the nav bar becomes transparent, background blurred element
+-added tech list with respective icons for most of them and animated it
+-open git, linkedin, and envelope to new tab and outlook for email directly (with target="_black"
 
-Navbar -> active = blue circle next to link
+sites like Pixabay and Unsplash, offer free-to-use image
