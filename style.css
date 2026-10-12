@@ -173,7 +173,7 @@ header {
   }
 }
 
-.technology-list p {
+.technology-list li {
   display: flex;
   align-items: center;
   gap: 10px;
