@@ -1,7 +1,9 @@
-/*
-  '*' -> selects every HTML element
-  margin/padding -> removes default browser spacing
-*/
+/* mobile version - under construction */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+  }
+}
 
 * {
   margin: 0;
