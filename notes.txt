@@ -32,4 +32,5 @@ sites like Pixabay and Unsplash, offer free-to-use image
 
 to do:
 
--project section
+-project section: replace placeholder image with dynamic content related to projects
+-complete projects and add them all to the portfolio
