@@ -1,13 +1,3 @@
-to do :
-
--change python icon to official colors not just yellow
--add -> what I do? section
--add copyright for devicon icons 
--projects section -> change header to match contact header
--when hovering on projects make the box change color to blue (same color as contact blue section)
--when clicking on link in navbar, put blue circle next to it to indicate its 'activated'
-
-
 What I did so far (not in order):
 
 -nav bar with name and 3 sections: Home, Projects, Contact
@@ -19,11 +9,19 @@ What I did so far (not in order):
 -when scrolling down, the nav bar becomes transparent, background blurred element
 -added tech list with respective icons for most of them and animated it
 -open git, linkedin, and envelope to new tab and outlook for email directly (with target="_black"
+-used an img for Python icon in technology list as the plain icon from devicon was yellow and I wanted the original look
+-duplicated the technology list to enable an animated loop of the logos without javascript
+-changed the project section header to match the contact section header
+-hovering effect on nav bar sections -> white to grey color switch
+-removed NLTK from technology-list: doesnt have an icon or logo as it is an academic open-source project
 
 ideas/brainstorm:
 
 -night/day modes for page
 -Fr/En language translation
+-when clicking on link in navbar, put blue circle next to it to indicate its 'activated'
+-when hovering on projects make the box change color to blue (same color as contact blue section)
+-what I do? -> bullet proof section of my skillset
 
 
 sources:

@@ -162,6 +162,8 @@ header {
   gap: 70px;
   width: max-content;
   animation: scroll 30s linear infinite;
+  list-style: none;
+  padding: 0;
 }
 
 /* technology list animation */
@@ -191,8 +193,10 @@ header {
 }
 
 .technology-icon {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 /* project section */
@@ -204,9 +208,9 @@ header {
 }
 
 .projects h2 {
-  font-size: 20px;
-  font-weight: normal;
-  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .project-list {
@@ -281,7 +285,7 @@ header {
   border: 1px solid #222;
   border-radius: 8px;
   padding: 14px 18px;
-  font-family: inherit;
+  font-family: inherit; /* force html element to use exact same font family as direct parent */
   font-size: 16px;
 }
 
