@@ -1,10 +1,3 @@
-/* mobile version - under construction */
-@media (max-width: 768px) {
-  .hero-content {
-    flex-direction: column;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -94,22 +87,6 @@ header {
   color: darkgray;
 }
 
-/* button */
-.button {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  border: 1px solid white;
-  padding: 12px 24px;
-  margin-top: 30px;
-  border-radius: 10px;
-}
-
-.button:hover {
-  background-color: white;
-  color: #0a0a0a;
-}
-
 /* social links */
 .social-links {
   display: flex;
@@ -139,15 +116,8 @@ header {
   overflow: hidden;
   border-bottom: 1px solid #222;
 
+  /* fading effect of tech list */
   mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 8%,
-    black 92%,
-    transparent
-  );
-
-  -webkit-mask-image: linear-gradient(
     to right,
     transparent,
     black 8%,
@@ -207,6 +177,12 @@ header {
   border-bottom: 1px solid #222;
 }
 
+.projects > p {
+  color: #7896fb;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
 .projects h2 {
   font-size: 48px;
   font-weight: 500;
@@ -221,20 +197,66 @@ header {
 
 .project-item {
   width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px;
+}
+
+.project-item a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  border: 1px solid #222;
+  border-radius: 10px;
+  color: #999;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.project-item a:hover {
+  background-color: #222;
+  color: white;
 }
 
 .project-item h3 {
-  padding: 20px 20px 0;
+  width: 100%;
+  padding: 10px 0 0;
+  font-size: 22px;
 }
 
 .project-item p {
-  padding: 10px 20px 20px;
+  width: 100%;
+  padding: 0;
+  color: #888;
+  font-size: 17px;
+  margin-bottom: 10px;
 }
 
 .project-item img {
   width: 100%;
   display: block;
   border-radius: 4px;
+}
+
+.more-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 18px;
+  margin-top: 40px;
+  border: 1px solid #222;
+  border-radius: 100px;
+  color: #888;
+  background-color: #1a1a1a;
+  text-decoration: none;
+}
+
+.more-projects:hover {
+  background-color: #222;
 }
 
 /* contact section */
@@ -316,4 +338,11 @@ footer {
   color: rgb(177, 175, 175);
   text-align: center;
   padding: 3rem 1rem;
+}
+
+/* mobile version - under construction */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+  }
 }

@@ -22,8 +22,14 @@ ideas/brainstorm:
 -when clicking on link in navbar, put blue circle next to it to indicate its 'activated'
 -when hovering on projects make the box change color to blue (same color as contact blue section)
 -what I do? -> bullet proof section of my skillset
+-use for loop for tech list infinite scroll instead of repeating the list in html
 
 
 sources:
 
 sites like Pixabay and Unsplash, offer free-to-use image
+
+
+to do:
+
+-project section
