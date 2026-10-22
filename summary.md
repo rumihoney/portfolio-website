@@ -2,32 +2,32 @@
 
 ## Wins
 
-- Built my portfolio using HTML and CSS, with Home, Projects, and Contact sections.
-- Went for a dark minimalist look inspired by [ThemeWagon's Dark Minimal template](https://preview.themewagon.com/dark-minimal/), but wrote and customized the code myself.
-- Got the navigation links, hover effects, and sticky navbar working, including a blurred background when scrolling.
-- Used Flexbox to organize the hero section, project cards, and contact form.
-- Made an infinitely scrolling technology list without JavaScript by duplicating the HTML elements.
-- Added Font Awesome and Devicon icons. Had to use SVG images for some because the default icons didn't look how I wanted.
-- Added project descriptions, GitHub links, and live demo buttons.
-- Linked my GitHub, LinkedIn, and email.
-- Used Git and GitHub to keep track of changes and publish my website.
-- Got a lot more practice figuring out why things weren't working and fixing them.
+- Built a one-page portfolio from scratch using HTML and CSS, inspired by [ThemeWagon's Dark Minimal template](https://preview.themewagon.com/dark-minimal/), with my own code and customizations.
+- Organized the Home, Projects, and Contact sections using semantic HTML (`header`, `nav`, `main`, `section`, `article`, `footer`) and Flexbox instead of CSS Grid.
+- Created a two-column hero section with my introduction, title, and interests, using Google's _Manrope_ font.
+- Added a custom OpenMoji robot favicon, changed the browser title to "Rumi", and included a footer with copyright and icon credits.
+- Built a rounded, sticky navbar with my name, working section links using HTML IDs, a blurred background, and white-to-gray hover effects.
+- Added GitHub, LinkedIn, and email buttons with Font Awesome icons, using `target="_blank"` for external links and `mailto:` for email.
+- Created a technology list featuring Python, pandas, Jupyter Notebook, HTML, CSS, Git, and JavaScript.
+- Used Devicon for the original technology logos and colors, replacing Python and pandas icons with SVG images for a better look. Removed NLTK because it lacked a suitable logo.
+- Made the technology list scroll infinitely using CSS `@keyframes` and duplicated HTML elements instead of JavaScript, with a gradient mask to fade the icons at both edges.
 
 ## Difficulties
 
-- **CSS alignment:** Getting text, buttons, and project cards to line up properly with Flexbox took quite a bit of trial and error.
+- **CSS alignment:** Getting text, buttons, and project cards to line up properly with Flexbox took a lot of trial and error.
 - **Responsive design:** Making everything look good on mobile has been my biggest challenge so far. Still working on it!
 - **Icons:** Some icons wouldn't show up, while others had the wrong colors or didn't look right.
-- **CSS animations:** Took some figuring out to get the technology list scrolling continuously without JavaScript. I'd eventually like to try doing this with a loop instead.
-- **GitHub Pages:** Had issues with failed deployments and broken live demo links. Turns out I accidentally had a duplicate folder being treated as a Git submodule, which caused a whole mess.
-- **Design consistency:** Getting the spacing, fonts, and styling to look consistent across the website was trickier than I expected.
+- **CSS animations:** Figuring out how to make the technology list scroll continuously without JavaScript took some experimenting.
+- **GitHub Pages:** Ran into failed deployments and broken live demo links. I also accidentally had a duplicate folder being treated as a Git submodule, which caused a whole mess.
+- **Design consistency:** Getting the spacing, fonts, colors, and styling to look consistent across the website was trickier than I expected.
+- **Learning new CSS properties:** Had to figure out how properties like `mask-image`, `flex-wrap`, `position: sticky`, and `backdrop-filter` work.
 
 ## Future Improvements / Ideas
 
-- Add a light/dark mode toggle.
-- Make the website available in both French and English.
-- Add a little blue circle next to the active navbar link.
-- Make project cards turn blue when hovering over them.
-- Add a "What I Do" section to show my skills.
-- Try using JavaScript to loop through the technology icons instead of repeating them in HTML.
-- Finish making the website mobile-friendly.
+- Add light/dark mode and French/English translations.
+- Highlight the active navbar link with a blue circle.
+- Add blue hover effects to project cards.
+- Create a "What I Do" skills section.
+- Use JavaScript loops instead of duplicating the technology list.
+- Replace placeholder images with actual project screenshots.
+- Finish the mobile layout and make the contact form functional.
