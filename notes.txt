@@ -1,5 +1,6 @@
 what I did so far:
 -While adding light/dark mode, I had to fetch individual text elements as the color change
+-light/dark and lang modes were inspired by this website: https://sokolovski.pro/
 wouldn't apply evenly to all the text documents, this was notable with the navigation bar and links that initially 
 remained unchanged, the fix was adding a function for the navbar to target it within the if statement
 -had to search for free icons in font awesome for a sun icon that looked to my liking
