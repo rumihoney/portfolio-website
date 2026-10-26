@@ -1,0 +1,3 @@
+-While adding light/dark mode, I had to fetch individual text elements as the color change
+wouldn't apply evenly to all the text documents, this was notable with the navigation bar and links that initially 
+remained unchanged, the fix was adding a function for the navbar to target it within the if statement
