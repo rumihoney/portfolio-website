@@ -98,30 +98,32 @@ translatableElements.forEach(function (element) {
   englishText[key] = element.innerHTML;
 });
 
-// translate content
+// translate content object
 const translations = {
+  // navbar
   home: "Accueil",
   projects: "Projets",
   contact: "Contact",
+  // header
   greeting: "Salut, c'est Rumi.",
   title: "Diplômée en linguistique<br />et développeuse de logiciels",
   description:
-    "J'explore les liens entre les langues, la technologie et les données à travers la linguistique informatique et au développement logiciel.",
-
+    "J’explore les connexions entre les langues, la technologie ainsi que les données à travers la linguistique informatique et au développement logiciel.",
+  // project section
   myWork: "Mes projets",
   project1:
-    "Emprunts lexicaux au russe en géorgien : analyse de données linguistiques",
+    "Emprunts lexicaux de russe en géorgien : analyse de données linguistiques",
   project2: "Générateur de personnages par IA",
   project3: "Application d'apprentissage du darija",
   inDevelopment: "En développement",
   deployed: "Déployé",
   moreProjects: "Plus de projets sur GitHub",
-
+  // contact section
   letsTalk: "Discutons",
   availability:
-    "Disponible pour des travaux indépendantes et des postes à temps plein.",
+    "Disponible pour des travaux indépendants et des postes à temps plein.",
   submit: "Envoyer",
-
+  // footer
   copyright: "Copyright © 2026 Roumaissaa Lassal — Tous droits réservés",
   icons: "Icônes par Font Awesome et Devicon.",
 };

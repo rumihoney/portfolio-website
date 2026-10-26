@@ -1,3 +1,4 @@
+what I did so far:
 -While adding light/dark mode, I had to fetch individual text elements as the color change
 wouldn't apply evenly to all the text documents, this was notable with the navigation bar and links that initially 
 remained unchanged, the fix was adding a function for the navbar to target it within the if statement
@@ -15,4 +16,10 @@ to do:
 -submit button in contact section
 -change sun icon to something more modern
 -replace project placeholders
+-refine light mode 
+    -> make sure the hover effects of buttons, 
+    -> blue text 
+    -> blur effect from nav bar scrolls 
+    -> light/dark mode icons = dark in lightmode
 -make it mobile friendly
+-add about me section with my story
