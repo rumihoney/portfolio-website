@@ -5,10 +5,14 @@ remained unchanged, the fix was adding a function for the navbar to target it wi
 -the icons didnt align with the nav link text to its left so I added align-items: center; to the existing .navlinks section in css
 -initially had the light/dark mode on the navbar but I prefer a more minimal look so I moved it outside to the top right and added a language option
 -pointer activated when hovering on a link
+-after adding the fr/en toggle button, I made an object with the fr translation only since the default language was already english
+then I added a translate attribute to the html texts
 
 
 to do:
--add fr/en section
+-refine french translation -> also reformat the french version as sizing of text is off
+-make sure the border is the same in all the page
 -submit button in contact section
 -change sun icon to something more modern
+-replace project placeholders
 -make it mobile friendly

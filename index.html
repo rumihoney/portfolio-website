@@ -54,9 +54,9 @@
         <a href="#home" class="logo">Roumaissaa Lassal</a>
 
         <div class="nav-links">
-          <a href="#home">Home</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <a href="#home" data-translate="home">Home</a>
+          <a href="#projects" data-translate="projects">Projects</a>
+          <a href="#contact" data-translate="contact">Contact</a>
         </div>
       </nav>
     </header>
@@ -64,15 +64,15 @@
     <main>
       <!-- Hero section -->
       <section id="home" class="hero">
-        <p>Hi, Rumi here.</p>
+        <p data-translate="greeting">Hi, Rumi here.</p>
 
         <div class="hero-content">
-          <h1>
+          <h1 data-translate="title">
             Linguistics graduate<br />
             &amp; Software Developer
           </h1>
 
-          <p class="hero-description">
+          <p class="hero-description" data-translate="description">
             Exploring the intersections of language and data through
             computational linguistics and software engineering.
           </p>
@@ -160,8 +160,8 @@
 
       <!-- Projects section -->
       <section id="projects" class="projects">
-        <p>My work</p>
-        <h2>Projects</h2>
+        <p data-translate="myWork">My work</p>
+        <h2 data-translate="projects">Projects</h2>
 
         <div class="project-list">
           <!-- Project 1: Russian Loanwords in Georgian -->
@@ -171,8 +171,10 @@
               alt="Placeholder for Russian Loanwords in Georgian"
             />
 
-            <h3>Russian Loanwords in Georgian: Linguistic Data Analysis</h3>
-            <p>In Development</p>
+            <h3 data-translate="project1">
+              Russian Loanwords in Georgian: Linguistic Data Analysis
+            </h3>
+            <p data-translate="inDevelopment">In Development</p>
 
             <a
               href="https://github.com/rumihoney/russian-georgian-loanwords"
@@ -192,8 +194,8 @@
               alt="Placeholder for AI Character Generator"
             />
 
-            <h3>AI Character Generator</h3>
-            <p>Deployed</p>
+            <h3 data-translate="project2">AI Character Generator</h3>
+            <p data-translate="deployed">Deployed</p>
 
             <a
               href="https://github.com/rumihoney/ai_character_generator"
@@ -223,8 +225,8 @@
               alt="Placeholder for Darija Learning App"
             />
 
-            <h3>Darija Learning App</h3>
-            <p>In Developmentt</p>
+            <h3 data-translate="project3">Darija Learning App</h3>
+            <p data-translate="inDevelopment">In Development</p>
 
             <a
               href="https://github.com/rumihoney/darija-app"
@@ -255,18 +257,18 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          More projects on GitHub
+          <span data-translate="moreProjects">More projects on GitHub</span>
           <i class="fa-brands fa-github"></i>
         </a>
       </section>
 
       <!-- Contact section -->
       <section id="contact" class="contact">
-        <p>Let's talk</p>
-        <h2>Contact</h2>
+        <p data-translate="letsTalk">Let's talk</p>
+        <h2 data-translate="contact">Contact</h2>
 
         <div class="contact-content">
-          <p class="contact-text">
+          <p class="contact-text" data-translate="availability">
             Available for freelance and full-time work.
           </p>
 
@@ -275,7 +277,7 @@
             <input type="email" placeholder="Email" />
             <textarea placeholder="Message"></textarea>
 
-            <button type="submit">Submit</button>
+            <button type="submit" data-translate="submit">Submit</button>
           </form>
         </div>
       </section>
@@ -283,8 +285,10 @@
 
     <!-- Footer -->
     <footer>
-      <p>Copyright © 2026 Roumaissaa Lassal — All Rights Reserved</p>
-      <p>Icons by Font Awesome and Devicon.</p>
+      <p data-translate="copyright">
+        Copyright © 2026 Roumaissaa Lassal — All Rights Reserved
+      </p>
+      <p data-translate="icons">Icons by Font Awesome and Devicon.</p>
     </footer>
   </body>
 </html>

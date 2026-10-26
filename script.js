@@ -82,6 +82,103 @@ if (toggleBackgroundButton) {
   });
 }
 
-// submit button in contact section
+// fr/en toggle
+const toggleLanguageButton = document.getElementById("toggle-language");
+const fr = document.getElementById("fr");
+const en = document.getElementById("en");
 
-// fr/en options
+// select all elements that need translation
+const translatableElements = document.querySelectorAll("[data-translate]");
+
+// Save original English text from HTML
+const englishText = {};
+
+translatableElements.forEach(function (element) {
+  const key = element.dataset.translate;
+  englishText[key] = element.innerHTML;
+});
+
+// translate content
+const translations = {
+  home: "Accueil",
+  projects: "Projets",
+  contact: "Contact",
+  greeting: "Salut, c'est Rumi.",
+  title: "Diplômée en linguistique<br />et développeuse de logiciels",
+  description:
+    "J'explore les liens entre les langues, la technologie et les données à travers la linguistique informatique et au développement logiciel.",
+
+  myWork: "Mes projets",
+  project1:
+    "Emprunts lexicaux au russe en géorgien : analyse de données linguistiques",
+  project2: "Générateur de personnages par IA",
+  project3: "Application d'apprentissage du darija",
+  inDevelopment: "En développement",
+  deployed: "Déployé",
+  moreProjects: "Plus de projets sur GitHub",
+
+  letsTalk: "Discutons",
+  availability:
+    "Disponible pour des travaux indépendantes et des postes à temps plein.",
+  submit: "Envoyer",
+
+  copyright: "Copyright © 2026 Roumaissaa Lassal — Tous droits réservés",
+  icons: "Icônes par Font Awesome et Devicon.",
+};
+
+// Select form placeholders
+const nameInput = document.querySelector('.contact-form input[type="text"]');
+const emailInput = document.querySelector('.contact-form input[type="email"]');
+const messageInput = document.querySelector(".contact-form textarea");
+
+// Save original English placeholders
+const englishPlaceholders = {
+  name: nameInput.placeholder,
+  email: emailInput.placeholder,
+  message: messageInput.placeholder,
+};
+
+let isFrench = false; // English is the default language
+
+if (toggleLanguageButton) {
+  toggleLanguageButton.addEventListener("click", function () {
+    if (isFrench) {
+      //switch to English
+      translatableElements.forEach(function (element) {
+        const key = element.dataset.translate;
+        element.innerHTML = englishText[key];
+      });
+
+      nameInput.placeholder = englishPlaceholders.name;
+      emailInput.placeholder = englishPlaceholders.email;
+      messageInput.placeholder = englishPlaceholders.message;
+
+      fr.classList.remove("active");
+      en.classList.add("active");
+
+      document.documentElement.lang = "en";
+      isFrench = false;
+    } else {
+      // Switch to French
+      translatableElements.forEach(function (element) {
+        const key = element.dataset.translate;
+
+        if (translations[key] !== undefined) {
+          element.innerHTML = translations[key];
+        }
+      });
+
+      nameInput.placeholder = "Nom";
+      emailInput.placeholder = "Courriel";
+      messageInput.placeholder = "Message";
+
+      en.classList.remove("active");
+      fr.classList.add("active");
+
+      document.documentElement.lang = "fr";
+      isFrench = true;
+    }
+  });
+}
+
+// submit button in contact section
