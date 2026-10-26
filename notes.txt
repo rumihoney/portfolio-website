@@ -1,3 +1,9 @@
 -While adding light/dark mode, I had to fetch individual text elements as the color change
 wouldn't apply evenly to all the text documents, this was notable with the navigation bar and links that initially 
 remained unchanged, the fix was adding a function for the navbar to target it within the if statement
+-had to search for free icons in font awesome for a sun icon that looked to my liking
+-the icons didnt align with the nav link text to its left so I added align-items: center; to the existing .navlinks section in css
+
+
+to add in summary*:
+-pointer activated when hovering on a link
