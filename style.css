@@ -49,6 +49,18 @@ header {
   color: lightgray;
 }
 
+/* light/dark & language mode  */
+.settings-container {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  z-index: 1001;
+}
+
 /* light/dark mode toggle button */
 #toggle-background {
   background: none;
@@ -63,6 +75,31 @@ header {
 /* dim the inactive icon */
 #toggle-background .inactive {
   opacity: 0.3;
+}
+
+/* language mode toggle button */
+#toggle-language {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  background-color: #222;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#toggle-language span {
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: #888;
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+}
+
+/* highlight selected/active language */
+#toggle-language .active {
+  background-color: #ddd;
+  color: black;
 }
 
 /* hero */
