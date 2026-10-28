@@ -9,6 +9,7 @@ remained unchanged, the fix was adding a function for the navbar to target it wi
 -pointer activated when hovering on a link
 -after adding the fr/en toggle button, I made an object with the fr translation only since the default language was already english
 then I added a translate attribute to the html texts
+-added 'required' attribute to make sure user fills in the input before submitting the form
 
 
 to do:
