@@ -108,7 +108,7 @@ const translations = {
   greeting: "Salut, c'est Rumi.",
   title: "Diplômée en linguistique<br />et développeuse de logiciels",
   description:
-    "J’explore les connexions entre les langues, la technologie ainsi que les données à travers la linguistique informatique et au développement logiciel.",
+    "J’explore les connexions entre les langues, la technologie ainsi que les données à travers la linguistique informatique et le développement de logiciels.",
   // project section
   myWork: "Mes projets",
   project1:
