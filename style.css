@@ -229,6 +229,13 @@ header {
   margin: 0 auto;
   padding: 40px 60px 80px;
   border-bottom: 1px solid #222;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 8%,
+    black 92%,
+    transparent
+  );
 }
 
 .projects > p {
@@ -319,6 +326,13 @@ header {
   margin: 0 auto;
   padding: 40px 40px 80px;
   border-bottom: 1px solid #222;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 8%,
+    black 92%,
+    transparent
+  );
 }
 
 .contact > p {
