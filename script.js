@@ -106,7 +106,7 @@ const translations = {
   contact: "Contact",
   // header
   greeting: "Salut, c'est Rumi.",
-  title: "Diplômée en linguistique<br />et développeuse de logiciels",
+  title: "Linguiste diplômée <br/>& développeuse de logiciels",
   description:
     "J’explore les connexions entre les langues, la technologie ainsi que les données à travers la linguistique informatique et le développement de logiciels.",
   // project section
