@@ -27,4 +27,6 @@ to do:
     -> [x] light/dark mode icons = dark in lightmode
 -make it mobile friendly
 -add 'about me' section with my story
--create a Writing & Research section linking to selected Medium articles. (so far just have the link next to my socials in the intro)
+-Medium
+    -> create a Writing & Research section linking to selected Medium articles. (so far just have the link next to my socials in the intro)
+    -> write article about my past data analysis like russian loanwords in Georgian, now I just have the project
