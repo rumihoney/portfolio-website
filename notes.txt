@@ -10,7 +10,7 @@ remained unchanged, the fix was adding a function for the navbar to target it wi
 -after adding the fr/en toggle button, I made an object with the fr translation only since the default language was already english
 then I added a translate attribute to the html texts
 -added 'required' attribute to make sure user fills in the input before submitting the form
--changed light/sun icons to bootstrap ones for the aesthetic
+-attempted to changed light/sun icons to bootstrap ones for the aesthetic but reverted back
 -added Medium link and feather icon
 
 
