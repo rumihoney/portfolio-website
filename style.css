@@ -119,7 +119,7 @@ header {
 .hero-content {
   display: flex;
   align-items: flex-start;
-  gap: 40px;
+  gap: 50px;
 }
 
 .hero-content h1 {
@@ -179,6 +179,30 @@ header {
     transparent
   );
 }
+/* gradient effect border to other sections for cohesion */
+.projects,
+.contact {
+  position: relative;
+}
+
+.projects::after,
+.contact::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1120px, 100%);
+  height: 1px;
+
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    #222 8%,
+    #222 92%,
+    transparent 100%
+  );
+}
 
 .technology-list {
   display: flex;
@@ -228,14 +252,7 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 60px 80px;
-  border-bottom: 1px solid #222;
-  mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 8%,
-    black 92%,
-    transparent
-  );
+  /* border-bottom: 1px solid #222; */
 }
 
 .projects > p {
@@ -325,14 +342,7 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 40px 80px;
-  border-bottom: 1px solid #222;
-  mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 8%,
-    black 92%,
-    transparent
-  );
+  /* border-bottom: 1px solid #222; */
 }
 
 .contact > p {
@@ -406,11 +416,4 @@ footer {
   color: rgb(177, 175, 175);
   text-align: center;
   padding: 3rem 1rem;
-}
-
-/* mobile version - under construction */
-@media (max-width: 768px) {
-  .hero-content {
-    flex-direction: column;
-  }
 }
