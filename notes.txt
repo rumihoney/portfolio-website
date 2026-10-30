@@ -16,7 +16,7 @@ then I added a translate attribute to the html texts
 
 to do:
 -refine french translation -> also reformat the french version as sizing of text is off
--make sure the border is the same in all the page
+-[x] make sure the border is the same in all the page -> added `mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);`
 -submit button in contact section
 -change sun icon to something more modern
 -replace project placeholders
