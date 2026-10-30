@@ -10,20 +10,22 @@ remained unchanged, the fix was adding a function for the navbar to target it wi
 -after adding the fr/en toggle button, I made an object with the fr translation only since the default language was already english
 then I added a translate attribute to the html texts
 -added 'required' attribute to make sure user fills in the input before submitting the form
--attempted to changed light/sun icons to bootstrap ones for the aesthetic but reverted back
 -added Medium link and feather icon
 
 
 to do:
--refine french translation -> also reformat the french version as sizing of text is off
+-[x] refine french translation 
+
+-reformat the french version as sizing of text is off
 -[x] make sure the border is the same in all the page -> added `mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);`
--submit button in contact section
--change sun icon to something more modern
+-submit button in contact section -> functional
+-[x] change sun icon to something more modern -> attempted to changed light/sun icons to bootstrap ones for the aesthetic but reverted back
 -replace project placeholders
 -refine light mode 
-    -> make sure the hover effects of buttons, 
-    -> blue text 
+    -> [x] add hover effect on buttons **added pointer instead  
+    -> blue text?
     -> blur effect from nav bar scrolls 
-    -> light/dark mode icons = dark in lightmode
+    -> [x] light/dark mode icons = dark in lightmode
 -make it mobile friendly
--add about me section with my story
+-add 'about me' section with my story
+-create a Writing & Research section linking to selected Medium articles. (so far just have the link next to my socials in the intro)
